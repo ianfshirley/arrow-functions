@@ -205,7 +205,7 @@ console.log(joe.greeting());
 // };
 Student.courseName = () => `This student is enrolled in Code 301.`;
 
-// TODO: Uncomment the following line of code to see the output in the browser console
+// DONE: Uncomment the following line of code to see the output in the browser console
 console.log(Student.courseName());
 
 
@@ -215,19 +215,20 @@ console.log(Student.courseName());
 Student.prototype.scope = function() {
   console.log(this);
 };
+// Student.prototype.scope = () => console.log(this);
 
-// TODO: Uncomment the following line of code to see the output in the browser console
-// joe.scope();
+// DONE: Uncomment the following line of code to see the output in the browser console
+joe.scope();
 
 Student.prototype.scopeArrow = () => console.log(this);
 
-// TODO: Uncomment the following line of code to see the output in the browser console
-// joe.scopeArrow();
+// DONE: Uncomment the following line of code to see the output in the browser console
+joe.scopeArrow();
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-//
+// It's referring to the student object 'joe'
 // 2. What is "this" when joe.scopeArrow() is invoked?
-//
+// nothing? I'm not sure... very confused on this part even after doing additional research after the suggested readings
 // 3. Explain why "this" is different when an arrow function is used.
-//
+// According to  MDN web docs, it's because arrow functions do not have their own 'this', which doesn't help my understanding at all. The example they use is creating an arrow function inside of an object which confused me even more
