@@ -27,7 +27,7 @@ const withoutParens = course => {
   return `I am currently enrolled in ${course}`;
 };
 
-// TODO: Uncomment the following line of code to see the output in the browser console
+// DONE: Uncomment the following line of code to see the output in the browser console
 console.log('Without parens:', withoutParens('Code 301'));
 
 
@@ -37,8 +37,8 @@ console.log('Without parens:', withoutParens('Code 301'));
 // Without an arrow function, we need to explicitly type "return"
 const oneLiner = course => `I cam currently enrolled in ${course}`;
 
-// TODO: Uncomment the following line of code to see the output in the browser console
-// console.log('As a one-liner:', oneLiner('Code 301'));
+// DONE: Uncomment the following line of code to see the output in the browser console
+console.log('As a one-liner:', oneLiner('Code 301'));
 
 
 // STEP 5
