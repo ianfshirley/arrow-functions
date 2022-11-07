@@ -48,8 +48,8 @@ const add = function(num1, num2) {
   return `${num1} + ${num2} = ${num1 + num2}`;
 };
 
-// TODO: Uncomment the following line of code to see the output in the browser console
-// console.log('Let\'s do some math:', add(4, 5));
+// DONE: Uncomment the following line of code to see the output in the browser console
+console.log('Let\'s do some math:', add(4, 5));
 
 
 // STEP 6
