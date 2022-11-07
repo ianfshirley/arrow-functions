@@ -69,8 +69,8 @@ const multiLiner = word => {
   return word;
 };
 
-// TODO: Uncomment the following line of code to see the output in the browser console
-// console.log('Multi-line arrow function:', multiLiner('hello'));
+// DONE: Uncomment the following line of code to see the output in the browser console
+console.log('Multi-line arrow function:', multiLiner('hello'));
 
 
 // STEP 8
